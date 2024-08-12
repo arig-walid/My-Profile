@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #141414;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1f1f1f;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    width: 330px;
+    margin-top: 15%;
+    margin-left: 40%;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 100px;
+    height: 550px;
+    padding: 10px;
+}
+h4 {
+    color: white;
+    letter-spacing: 2px;
+}
+h5 {
+    color: #a6c252;
+    margin-top: -17px;
+    letter-spacing: 2px;
+
+}
+h6 {
+    color: white;
+    letter-spacing: 2px;
+    margin-top: -8px;
+}
+.heads {
+margin-top: -15px;
+/* margin-bottom: -20px; */
+}
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px; /* Adjusted for better spacing */
+    margin-bottom: 20px;
+}
+
+.link-button {
+    width: 180px;
+    padding: 10px;
+    text-align: center;
+    background-color: #444;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.5s ease;
+    -webkit-transition: background-color 0.5s ease;
+    -moz-transition: background-color 0.5s ease;
+    -ms-transition: background-color 0.5s ease;
+    -o-transition: background-color 0.5s ease;
+}
+
+.link-button:hover {
+    background-color: #555; /* Button hover color */
+    margin-left: -15px;
+}
+
+img {
+    border-radius: 50% ;
+    -webkit-border-radius: 50% ;
+    -moz-border-radius: 50% ;
+    -ms-border-radius: 50% ;
+    -o-border-radius: 50% ;
+}
+a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    border: 2px solid #333333;
+}
